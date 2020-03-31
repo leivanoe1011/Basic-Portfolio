@@ -1,6 +1,17 @@
 
 
 /* Navigation style in index.html */
+.nav {
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 960px;
+    border: 1px solid #FFFFFF;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #FFFFFF;
@@ -8,7 +19,7 @@
 
 .topnav a {
     float: right;
-    color: #CDCACA;
+    color: #848786;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,5 +36,36 @@
     color: white;
     float: left;
 }
+
+/*  h1 will enherit these setting   */
+h1 {
+    color: #1BCA9D;
+}
+
+
+/* body content */
+body {
+    background-image: url('../../assets/images/geometric-grey-background_1055-3147.jpg');
+    background-size: cover;
+}
+
+.content {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 960px;
+    border: 1px solid #848786;
+    /* padding: 10px; */
+}
+
+.bodyarea {
+    background-color: #FFFFFF;
+}
+
+p {
+    color: #848786;
+}
+
+
+
 
 
