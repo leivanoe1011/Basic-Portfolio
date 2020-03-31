@@ -1,0 +1,29 @@
+
+
+/* Navigation style in index.html */
+.topnav {
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.topnav a {
+    float: right;
+    color: #CDCACA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.name {
+    background-color: #1BCA9D;
+    color: white;
+    float: left;
+}
+
+
