@@ -1,47 +1,75 @@
 
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #777777;
+  }
+  
 
 /* Navigation style in index.html */
+
 .nav {
     background-color: #FFFFFF;
 }
 
-.navbar{
-    background-color: #FFFFFF;
-    margin: auto;
-    width: 960px;
-    border: 1px solid #FFFFFF;
-}
-
+/* Margin Left ensures the left link will align with the content*/
 .topnav {
-    overflow: hidden;
-    background-color: #FFFFFF;
-}
-
+        overflow: hidden;
+        background-color: #FFFFFF;
+        width: 960px;
+        margin-left: 25%; 
+    }
+  
 .topnav a {
     float: right;
-    color: #848786;
+    display: block;
+    color: #777777;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 17px;
-}
-
+    
+  }
+  
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-.topnav a.name {
-    background-color: #1BCA9D;
+  }
+  
+.topnav a.active {
+    background-color: #4aaaa5;
+    width:10%;
     color: white;
     float: left;
-}
+  }
+  
+.topnav .icon {
+    display: none;
+  }
+  
 
 /*  h1 will enherit these setting   */
 h1 {
-    color: #1BCA9D;
+    color: #4aaaa5;
 }
 
+hr {
+    width: 900px;
+    border-top: 5px solid #cccccc;
+}
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+    /* width: 170px;
+    height: 170px; */
+}
+
+
+p {
+    color: #777777;
+    line-height: 2;
+}
 
 /* body content */
 body {
@@ -50,22 +78,33 @@ body {
 }
 
 .content {
-    background-color: #FFFFFF;
-    margin: auto;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    top: 10%;
     width: 960px;
-    border: 1px solid #848786;
-    /* padding: 10px; */
-}
-
-.bodyarea {
     background-color: #FFFFFF;
+    color: white;
+    text-align: left;
+   
 }
 
-p {
-    color: #848786;
+
+/* Index html footer */
+.footer {
+    position: fixed;
+    border-top: 10px solid #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-
-
-
+.footer p{
+    color: #FFFFFF
+}
 
