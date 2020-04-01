@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
   }
   
@@ -38,9 +38,10 @@ body {
   
 .topnav a.active {
     background-color: #4aaaa5;
-    width:10%;
+    width:15%;
     color: white;
     float: left;
+    font-size: x-large;
   }
   
 .topnav .icon {
@@ -69,11 +70,12 @@ img {
 p {
     color: #777777;
     line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* body content */
 body {
-    background-image: url('../../assets/images/geometric-grey-background_1055-3147.jpg');
+    background-image: url('../../assets/images/so-white.jpg');
     background-size: cover;
 }
 
@@ -92,7 +94,7 @@ body {
 
 
 /* Index html footer */
-.footer {
+.content-footer {
     position: fixed;
     border-top: 10px solid #4aaaa5;
     left: 0;
@@ -104,7 +106,7 @@ body {
     text-align: center;
 }
 
-.footer p{
+.lbl-footer{
     color: #FFFFFF
 }
 
