@@ -1,0 +1,104 @@
+
+html {
+    height: 100%;
+}
+
+
+body {
+
+    /* default of flex is to make everything into columns */
+    display: flex;
+
+    /* The setting below will turn all the flex items into rows */
+    flex-direction: column;
+
+    /* 
+        if not your body is matching the height of the content and cannot push things down 
+    */
+    min-height: 100%;
+
+    background-image: url('../../assets/images/so-white.jpg');
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+nav {
+    width: 960px;
+    background-color: #ffffff;
+    font-size: larger;
+}
+
+.topnav {
+    position:relative;
+    left: 25%;
+    right: 25%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  
+  li a {
+    float: right;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+  }
+
+
+  .page-content {
+      width: 960px;
+  }
+
+
+  .small-content{
+      position: relative;
+      left: 25%;
+      right: 25%;
+  }
+
+  .footer {
+    /* position: fixed; */
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    flex-shrink: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    
+
+    /* will push the footer all the way down */
+    margin-top: auto;
+  }
+
+  /* .footer-content{
+      position: relative;
+      width: 960px;
+      left: 25%;
+      right: 25%;
+  } */
+
+
