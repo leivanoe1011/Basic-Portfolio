@@ -113,7 +113,15 @@ form {
 #message {
     /* float: center; */
     width: 100%;
+
+    /* Min Width will prevent the submit button to move up */
+    min-width: 875px;
+
+    /* Max Width will prevent message box to move out of the Main box*/
     max-width: 920px;
+    min-height: 50px;
+
+    /* Scroll bar will be provided if the message is long */
     overflow: auto;
     border-color: #cccccc;
     margin: 10px 0px 10px 0px;
