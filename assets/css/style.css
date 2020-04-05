@@ -1,72 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f1f1f1;
+    padding-bottom: 58px;
+    background-image: url('so-white.jpg');
     color: #777777;
-    background-image: url('../../assets/images/so-white.jpg');
-    background-size: cover;
-  }
-  
-  
+    /* Commenting will allow for sticky footer */
+    /* position: relative; */
+    /* min-height: 100vh; */
+}
 
-/* Navigation style in index.html */
-.nav {
-    background-color: #FFFFFF;
+header {
+   
+    background-color: #ffffff;
+    color: white;
+    border-bottom: 1px solid grey;
+    border-color: #dddddd;
+     /* padding: 20px; */
 }
 
 
-/* Margin Left ensures the left link will align with the content*/
 .topnav {
-        overflow: hidden;
-        background-color: #FFFFFF;
-        width: 960px;
-        margin-left: 25%; 
-    }
-  
+    position:relative;
+    /* left: 25%;
+    right: 25%; */
+   
+}
 
-.topnav a {
+
+ul {
+    margin: 0 auto;
+    width: 960px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+  
+li a {
     float: right;
     display: block;
     color: #777777;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px 16px;
     text-decoration: none;
-    font-size: 17px;
-    
-  }
+    font-size: large;
+}
   
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
+li a:hover:not(.active) {
+    background-color: rgb(248, 246, 246);
+}
   
-.topnav a.active {
+.active {
+    padding: 20px;
     background-color: #4aaaa5;
-    width:15%;
-    color: white;
     float: left;
+    color: white;
     font-size: x-large;
-  }
-  
+    font-weight: bold;
+}
 
-.topnav .icon {
-    display: none;
-  }
-  
 
-/*  h1 will enherit these setting   */
+
+main {
+    width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    /* min-height: calc(100vh - 211px - 58px); */
+}
+
 h1 {
     color: #4aaaa5;
 }
 
-
 hr {
     width: 900px;
     border-top: 5px solid #cccccc;
+    margin: 10px 10px;
 }
-
 
 img {
     float: left;
@@ -75,53 +96,31 @@ img {
     height: 170px; */
 }
 
-
-p {
+main p {
     color: #777777;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
+    /* overflow: auto; */
+
 }
 
 
-/* body content */
-
-.About-content {
-    position: fixed;
-    left: 25%;
-    right: 25%;
-    bottom: 15%;
-    top: 10%;
-    width: 960px;
-    background-color: #FFFFFF;
-    color: white;
-    text-align: left;
-    overflow: auto;
-   
-}
-
-
-/* Index html footer */
-.content-footer {
-    position: fixed;
+footer {
+    text-align: center;
     border-top: 10px solid #4aaaa5;
-    left: 0;
+    background-color: #666666;
+    color: white;
+    padding: 20px;
+    
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
-    height: 10%;
-    background-color: #666666;
-    color: #FFFFFF;
-    text-align: center;
+
+    /* Ensure sticky footer */
+    position: fixed;
+
+    /* Ensure that footer is on top of other elements */
+    z-index: 1;
 }
-
-
-.lbl-footer{
-    color: #FFFFFF
-}
-
-
-
-
-
-
 
 
