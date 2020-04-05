@@ -8,7 +8,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f1f1f1;
     padding-bottom: 58px;
-    background-image: url('../images/light-grey-terrazzo.jpg');
+    background-image: url('../images/funky-lines.jpg');
     color: #777777;
     /* Commenting will allow for sticky footer */
     /* position: relative; */
@@ -68,11 +68,13 @@ li a:hover:not(.active) {
 
 
 main {
+    float: center;
     width: 960px;
     margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 30px 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
