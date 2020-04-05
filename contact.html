@@ -7,7 +7,7 @@
     <title>AboutMe</title>
 
     <!-- Style sheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contactstyle.css">
 
 </head>
 <body>
@@ -24,7 +24,23 @@
         </nav>
     </header>
 
+    <main>
+        <h1>Contact</h1>
+        <hr>
+        <!-- We can use the mail to action -->
+        <!-- <form action="mailto:someone@example.com" method="post" enctype="text/plain"></form> -->
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" value="Mary"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" value="marysmith@gmail.com"><br>
+            <label for="message">Message</label><br>
+            <input type="text" id="message" name="message"><br>
 
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
 
     <footer>
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> </p>

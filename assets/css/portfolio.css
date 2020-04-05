@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f1f1f1;
+    padding-bottom: 58px;
+    background-image: url('so-white.jpg');
+    color: #777777;
+    /* Commenting will allow for sticky footer */
+    /* position: relative; */
+    /* min-height: 100vh; */
+}
+
+header {
+   
+    background-color: #ffffff;
+    color: white;
+    border-bottom: 1px solid grey;
+    border-color: #dddddd;
+     /* padding: 20px; */
+}
+
+
+.topnav {
+    position:relative;
+    /* left: 25%;
+    right: 25%; */
+   
+}
+
+
+ul {
+    margin: 0 auto;
+    width: 960px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+  
+li a {
+    float: right;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+  
+li a:hover:not(.active) {
+    background-color: rgb(248, 246, 246);
+}
+  
+.active {
+    padding: 20px;
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+main {
+    width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    /* min-height: calc(100vh - 211px - 58px); */
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+hr {
+    width: 900px;
+    border-top: 5px solid #cccccc;
+    margin: 10px 10px;
+}
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+    /* width: 170px;
+    height: 170px; */
+}
+
+main p {
+    color: #777777;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: auto; */
+
+}
+
+
+footer {
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    color: white;
+    padding: 20px;
+    
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+
+    /* Ensure sticky footer */
+    position: fixed;
+
+    /* Ensure that footer is on top of other elements */
+    z-index: 1;
+}
+
+
