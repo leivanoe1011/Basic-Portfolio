@@ -96,7 +96,6 @@ input {
     border-color: #cccccc;
     border-width: 0.5px;
     border-style: solid;
-    color: #666666;
     font-size: x-small;
     padding: 2px;
     margin: 4px;
@@ -110,7 +109,9 @@ form {
     
 }
 
+
 #message {
+
     /* float: center; */
     width: 100%;
 
@@ -124,7 +125,13 @@ form {
     /* Scroll bar will be provided if the message is long */
     overflow: auto;
     border-color: #cccccc;
+    
     margin: 10px 0px 10px 0px;
+}
+
+::placeholder {
+    color: #dad8d8;
+    /* color: red; */
 }
 
 #submit {
