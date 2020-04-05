@@ -102,6 +102,7 @@ input {
     margin: 4px;
     height: 30px;
     box-sizing: border-box;
+    margin: 10px 0px 10px 0px;
 }
 
 form {
@@ -114,6 +115,8 @@ form {
     width: 100%;
     max-width: 920px;
     overflow: auto;
+    border-color: #cccccc;
+    margin: 10px 0px 10px 0px;
 }
 
 #submit {
@@ -122,6 +125,8 @@ form {
     font-size: medium;
     background-color: #4aaaa5;
     color: white;
+    border: none;
+    margin: 20px 0px 10px 0px;
 }
 
 footer {
