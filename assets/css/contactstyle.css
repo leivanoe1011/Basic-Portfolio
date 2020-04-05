@@ -8,7 +8,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f1f1f1;
     padding-bottom: 58px;
-    background-image: url('so-white.jpg');
+    background-image: url('../images/so-white.jpg');
     color: #777777;
     /* Commenting will allow for sticky footer */
     /* position: relative; */
@@ -68,11 +68,12 @@ li a:hover:not(.active) {
 
 
 main {
+    float: center;
     width: 960px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 30px 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
@@ -91,7 +92,7 @@ hr {
 
 
 input {
-    width: 900px;
+    width: 100%;
     border-color: #cccccc;
     border-width: 0.5px;
     border-style: solid;
@@ -100,15 +101,22 @@ input {
     padding: 2px;
     margin: 4px;
     height: 30px;
+    box-sizing: border-box;
 }
 
+form {
+    width: 100%;
+    
+}
 
 #message {
-    height: 200px;
+    /* float: center; */
+    width: 100%;
+    max-width: 920px;
+    overflow: auto;
 }
 
 #submit {
-    position: relative;
     bottom: -5px;
     width: 100px;
     font-size: medium;
