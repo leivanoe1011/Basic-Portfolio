@@ -144,6 +144,11 @@ form {
     margin: 20px 0px 10px 0px;
 }
 
+#submit:hover:not(.active) {
+    background-color: #4aaaa5d3;
+    cursor: grab;
+}
+
 footer {
     text-align: center;
     border-top: 10px solid #4aaaa5;
