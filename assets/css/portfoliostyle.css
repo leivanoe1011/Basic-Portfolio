@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +40,7 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #ffffff;
+    
 }
   
   
@@ -65,24 +67,20 @@ li a:hover:not(.active) {
     font-weight: bold;
 }
 
-
-
 main {
-    float: center;
+    margin: 0 auto;
     width: 960px;
+    background: white;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-bottom: 50px; */
-    padding: 30px 20px;
-    border: 1px solid #dddddd;
-    background-color: #ffffff;
-    /* min-height: calc(100vh - 211px - 58px); */
+    border: 0.5px solid #dddddd;
 }
+
 
 h2 {
     color: #4aaaa5;
+    padding: 5px;
+    margin: 15px;
 }
 
 hr {
@@ -92,63 +90,39 @@ hr {
 }
 
 
-input {
-    width: 100%;
-    border-color: #cccccc;
-    border-width: 0.5px;
-    border-style: solid;
-    font-size: x-small;
-    padding: 2px;
-    margin: 4px;
-    height: 30px;
-    box-sizing: border-box;
-    margin: 10px 0px 10px 0px;
+section {
+    position: absolute;
+    width: 960px;
+    background-color: white;
+    border: 0.5px solid #dddddd;
+    border-top: none;
+
 }
 
-form {
-    width: 100%;
-    
+.container {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
 }
 
-
-#message {
-
-    /* float: center; */
-    width: 100%;
-
-    /* Min Width will prevent the submit button to move up */
-    min-width: 875px;
-
-    /* Max Width will prevent message box to move out of the Main box*/
-    max-width: 920px;
-    min-height: 50px;
-
-    /* Scroll bar will be provided if the message is long */
-    overflow: auto;
-    border-color: #cccccc;
-    
-    margin: 10px 0px 10px 0px;
+.projectimg {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 
-::placeholder {
-    color: #dad8d8;
-    /* color: red; */
-}
-
-#submit {
-    bottom: -5px;
-    width: 100px;
-    font-size: medium;
+.projecthref {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: -240px;
+    margin-top: 100px;
     background-color: #4aaaa5;
     color: white;
-    border: none;
-    margin: 20px 0px 10px 0px;
+    text-decoration: none;
+    padding: 10px 80px 10px 80px;
 }
 
-#submit:hover:not(.active) {
-    background-color: #4aaaa5d3;
-    cursor: grab;
-}
+
 
 footer {
     text-align: center;
