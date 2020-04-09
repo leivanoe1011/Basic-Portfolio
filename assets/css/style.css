@@ -53,6 +53,7 @@ li a {
   
 li a:hover:not(.active) {
     background-color: rgb(248, 246, 246);
+    text-decoration: underline;
 }
   
 .active {
