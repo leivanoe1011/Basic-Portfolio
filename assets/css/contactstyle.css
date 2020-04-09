@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f1f1f1;
     background-image: url('../images/funky-lines.jpg');
     color: #777777;
-    /* Commenting will allow for sticky footer */
-    /* position: relative; */
-    /* min-height: 100vh; */
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 
@@ -88,10 +86,11 @@ li a:hover > hr {
     background-color: #4aaaa5;
     float: left;
     color: white;
-    font-size: xx-large;
+    font-size: 35px;
     font-weight: bold;
     border-bottom: 1px solid #dddddd;
     text-shadow: none;
+    letter-spacing: 1.5px;
 }
 
 
@@ -109,9 +108,14 @@ main {
     /* min-height: calc(100vh - 211px - 58px); */
 }
 
+
 h2 {
     color: #4aaaa5;
+    margin: 25px 0 25px 25px;
+    font-size: xx-large;
+    letter-spacing: 0.25px;
 }
+
 
 
 main hr {
