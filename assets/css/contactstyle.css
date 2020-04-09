@@ -57,12 +57,13 @@ li a:hover:not(.active) {
   
 
 .active {
-    padding: 20px;
+    padding: 20px 25px 20px 25px;
     background-color: #4aaaa5;
     float: left;
     color: white;
     font-size: xx-large;
     font-weight: bold;
+    border-bottom: 1px solid #dddddd;
 }
 
 
