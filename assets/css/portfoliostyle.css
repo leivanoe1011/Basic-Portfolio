@@ -63,13 +63,14 @@ li a:hover:not(.active) {
     background-color: #4aaaa5;
     float: left;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
 main {
     margin: 0 auto;
     width: 960px;
+    height: 80%;
     background: white;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -87,7 +88,9 @@ h2 {
 hr {
     width: 900px;
     border-top: 2.5px solid #cccccc;
-    margin: 25px 10px 25px 10px;
+    margin: 25px 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -98,6 +101,7 @@ section {
     border: 0.5px solid #dddddd;
     border-top: none;
     font-family: Arial, Helvetica, sans-serif;
+
 
 }
 

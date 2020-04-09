@@ -62,7 +62,7 @@ li a:hover:not(.active) {
     background-color: #4aaaa5;
     float: left;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -90,6 +90,7 @@ hr {
     width: 900px;
     border-top: 2.5px solid #cccccc;
     margin: 25px 10px 25px 10px;
+   
 }
 
 
