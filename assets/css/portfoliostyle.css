@@ -147,7 +147,7 @@ h2 {
 
 .container:hover {
     transform: scale(1.2);
-    opacity: 0.9;
+    /* opacity: 0.9; */
 } 
 
 .projecthref {
