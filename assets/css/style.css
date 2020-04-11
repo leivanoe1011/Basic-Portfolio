@@ -34,6 +34,7 @@ body {
 
 ul {
     margin: 0 auto; /* margin:0 auto; 0 is for top-bottom and auto for left-right */
+    padding: 0;
     width: 960px;
     list-style-type: none;
     overflow: hidden;
@@ -47,7 +48,7 @@ li a {
     display: block;
     color: #777777;
     text-align: center;
-    padding: 25px 20px 20px 20px;
+    padding: 25px 20px 25px 20px;
     text-decoration: none;
     font-size: large;
     /* text-shadow: 2px 2px 5px #acacac; */
@@ -70,7 +71,7 @@ li a:hover:not(.active) {
 
 
 li a:hover > hr {
-    margin:0;
+    margin: 0;
     border: 0;
     width: 110%;
     color: #4aaaa5;
@@ -97,15 +98,16 @@ li a:hover > hr {
 main {
     float: center;
     width: 960px;
+    max-height: 600px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-bottom: 50px; */
     padding: 30px 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    /* min-height: calc(100vh - 211px - 58px); */
+    overflow: auto;
+    min-height: calc(100vh - 211px - 58px);
 }
 
 
