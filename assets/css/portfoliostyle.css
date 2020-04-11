@@ -185,6 +185,11 @@ h2 {
 }
 
 
+.container:hover .projectimg {
+    opacity: 0.25;
+}
+
+
 footer {
     text-align: center;
     border-top: 10px solid #4aaaa5;
