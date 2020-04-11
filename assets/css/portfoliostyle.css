@@ -60,6 +60,7 @@ a hr {
     border: 0;
     border-top: 2px solid #777777;
     margin-top: 4px;
+    opacity: 0.15;
 }
 
 li a:hover:not(.active) {
