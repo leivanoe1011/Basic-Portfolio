@@ -107,6 +107,7 @@ main {
     padding: 30px 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
+    overflow: auto;
     /* min-height: calc(100vh - 211px - 58px); */
 }
 
@@ -157,9 +158,10 @@ form {
     /* Max Width will prevent message box to move out of the Main box*/
     max-width: 920px;
     min-height: 50px;
+    /* max-height: 300px; */
 
     /* Scroll bar will be provided if the message is long */
-    overflow: auto;
+    /* overflow: auto; */
     border-color: #cccccc;
     
     margin: 10px 0px 10px 0px;
